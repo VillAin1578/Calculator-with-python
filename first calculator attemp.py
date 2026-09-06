@@ -9,4 +9,5 @@ elif user_input.lower() == "multiply":
     print(f"{a} * {b} = {a*b}")
 elif user_input.lower() == "divide":
     print(f"{a} / {b} = {a/b}")
-
+else:
+    print("Sorry, I didn't understand that. Please enter Add, Subtract, Multiply, or Divide.")
